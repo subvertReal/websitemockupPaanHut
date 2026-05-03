@@ -9,7 +9,7 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // global css
-import '../src/assets/App.css'
+import '../src/styles/App.css'
 
 // component imports
 import Head from '../components/Head.jsx'
