@@ -1,3 +1,4 @@
+import '../src/styles/App.css'
 import '../src/styles/head.css';
 
 import paanHut from '../src/assets/paanhut.jpg'

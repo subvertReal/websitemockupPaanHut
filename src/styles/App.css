@@ -1,0 +1,31 @@
+/* global css */
+
+/* @keyframes smooth-appear {
+  to{
+    bottom: 20px;
+    opacity:1;
+  }
+}
+.container {
+  background: gray;
+  color:white;
+  padding: 20px;
+  position: fixed;
+  bottom: -100%;
+  opacity:0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  animation: smooth-appear 1s ease forwards;
+} */
+
+.container.active{
+  transform: translateX(0);
+  opacity: 1;
+}
+.container{
+  position: relative;
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: .5s all ease;
+}
