@@ -1,10 +1,10 @@
 
 import burger from '../src/assets/burger.webp'
-import '../src/styles/firstpara.css'
+import '../src/styles/secpara.css'
 
 import { useEffect } from "react";
 
-function FirstPara(){
+function SecPara(){
 
   useEffect(() => {
     function show() {
@@ -30,7 +30,7 @@ function FirstPara(){
 
     return(
         
-    <div className='popInBottom1 reveal'>
+    <div className='popInBottom2 reveal'>
         <p>teeeeeeeeee</p>
         <div className='container '>
             <div className="row align-items-left">
@@ -57,4 +57,4 @@ Exercitationem sapiente dolore. Explicabo eos optio possimus adipisci consequatu
     )
 }
 
-export default FirstPara;
+export default SecPara;

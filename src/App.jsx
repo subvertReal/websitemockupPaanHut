@@ -14,6 +14,7 @@ import '../src/styles/App.css'
 // component imports
 import Head from '../components/Head.jsx'
 import FirstPara from '../components/FirstPara.jsx'
+import SecPara from '../components/SecPara.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,8 @@ function App() {
 
 
       <FirstPara />
+
+      <SecPara />
 
     </div>
 
