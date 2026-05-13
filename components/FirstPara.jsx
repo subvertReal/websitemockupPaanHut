@@ -9,24 +9,7 @@ function FirstPara({isMobile}){
   useEffect(() => {
     // console.log("log"+ isMobile);
 
-    function show() {
-      const reveal = document.querySelectorAll(".reveal");
-
-      for (let i = 0; i < reveal.length; i++) {
-        const windowHeight = window.innerHeight;
-        const elementTop = reveal[i].getBoundingClientRect().top;
-        const e = 190;
-
-        if (elementTop < windowHeight - e) {
-          reveal[i].classList.add("active");
-        } else {
-          reveal[i].classList.remove("active");
-        }
-      }
-    }
-
-    window.addEventListener("scroll", show);
-    return () => window.removeEventListener("scroll", show);
+  
   }, [isMobile]);
 // console.log('a'+isMobile);
 
@@ -55,7 +38,7 @@ function FirstPara({isMobile}){
     return(
     <div>    
         {/* Run this if it is desktop */}
-    <div className='popInBottom1 reveal active' isMobile={false}>
+    <div className='active' isMobile={false}>
         
         <div className='container '>
             <div className="row align-items-left">

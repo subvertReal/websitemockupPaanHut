@@ -35,8 +35,10 @@ function App() {
       <br></br>
 
       <FirstPara isMobile={isMobile}/>
+      <br></br>
 
       <SecPara isMobile={isMobile}/>
+      <br></br>
 
       <MenuPara isMobile={isMobile}/>
 
