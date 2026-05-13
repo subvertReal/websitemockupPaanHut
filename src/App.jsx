@@ -1,52 +1,31 @@
-import { useState } from 'react'
-const isMobile = window.innerWidth <= 768;
-
-    if (isMobile) {
-      console.log("Mobile resolution");
-    } else {
-      console.log("Desktop resolution");
-    }
-
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
-  integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
-  crossorigin="anonymous"
-/>
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 // global css
 import '../src/styles/App.css'
 
-// component imports
-import Head from '../components/Head.jsx'
-import FirstPara from '../components/FirstPara.jsx'
-import SecPara from '../components/SecPara.jsx'
-import MenuPara from '../components/MenuPara.jsx';
+
+
+// Page imports
+import Home from '../pages/Home.jsx';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
 
 
   return (
-    <div>
-     <script src="http://localhost:8097"></script>
+    // <div>
+    <BrowserRouter>
 
-      <Head isMobile={isMobile}/>
-      <br></br>
+      <Routes>
+        <Route path='/' element={<Home />} />
 
-      <FirstPara isMobile={isMobile}/>
-      <br></br>
+      </Routes>
 
-      <SecPara isMobile={isMobile}/>
-      <br></br>
-
-      <MenuPara isMobile={isMobile}/>
-
-    </div>
+    </BrowserRouter>
+     )
+} 
 
 
 
-  )
-}
+
+
 
 export default App
