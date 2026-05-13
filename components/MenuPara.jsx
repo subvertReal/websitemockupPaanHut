@@ -33,7 +33,7 @@ function MenuPara({isMobile}){
     return(
         
     <div className='popInBottom1 reveal'>
-        <p>teeeeeeeeee</p>
+        
         <div className='container '>
             <div className="row align-items-left">
 

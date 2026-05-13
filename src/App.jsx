@@ -32,13 +32,13 @@ function App() {
      <script src="http://localhost:8097"></script>
 
       <Head />
-
+      <br></br>
 
       <FirstPara isMobile={isMobile}/>
 
-      {/* <SecPara />
+      <SecPara isMobile={isMobile}/>
 
-      <MenuPara /> */}
+      <MenuPara isMobile={isMobile}/>
 
     </div>
 

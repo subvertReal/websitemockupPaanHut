@@ -7,7 +7,7 @@ function Head(){
     return(
         <div>
             <img className='headImg' src={paanHut}></img>
-                   <header>Hi</header>
+
         </div>
     )
 }

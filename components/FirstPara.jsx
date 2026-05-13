@@ -55,8 +55,8 @@ function FirstPara({isMobile}){
     return(
     <div>    
         {/* Run this if it is desktop */}
-    <div className='popInBottom1 reveal' isMobile={false}>
-        <p>teeeeeeeeee</p>
+    <div className='popInBottom1 reveal active' isMobile={false}>
+        
         <div className='container '>
             <div className="row align-items-left">
 
