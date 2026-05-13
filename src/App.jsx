@@ -1,5 +1,12 @@
-// import bootstrap
 import { useState } from 'react'
+const isMobile = window.innerWidth <= 768;
+
+    if (isMobile) {
+      console.log("Mobile resolution");
+    } else {
+      console.log("Desktop resolution");
+    }
+
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
@@ -15,9 +22,10 @@ import '../src/styles/App.css'
 import Head from '../components/Head.jsx'
 import FirstPara from '../components/FirstPara.jsx'
 import SecPara from '../components/SecPara.jsx'
+import MenuPara from '../components/MenuPara.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div>
@@ -26,9 +34,11 @@ function App() {
       <Head />
 
 
-      <FirstPara />
+      <FirstPara isMobile={isMobile}/>
 
-      <SecPara />
+      {/* <SecPara />
+
+      <MenuPara /> */}
 
     </div>
 
