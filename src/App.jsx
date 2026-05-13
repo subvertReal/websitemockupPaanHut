@@ -31,7 +31,7 @@ function App() {
     <div>
      <script src="http://localhost:8097"></script>
 
-      <Head />
+      <Head isMobile={isMobile}/>
       <br></br>
 
       <FirstPara isMobile={isMobile}/>

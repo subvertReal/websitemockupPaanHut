@@ -2,6 +2,7 @@
 import burger from '../src/assets/burger.webp'
 import '../src/styles/menu.css'
 import '../src/styles/App.css'
+import { Container } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -46,7 +47,7 @@ function MenuPara({isMobile}){
               </Container>
     
     
-            <p>Beatae inventore aut aspernatur facilis. Voluptatum ut ex sint nihil ex vero totam suscipit dignissimos. Aliquam facere quis quae veniam voluptates debitis. Cum voluptatibus itaque porro. Dolor qui aspernatur dolores. Cum quod et maxime.
+            <p className='mobileText'>Beatae inventore aut aspernatur facilis. Voluptatum ut ex sint nihil ex vero totam suscipit dignissimos. Aliquam facere quis quae veniam voluptates debitis. Cum voluptatibus itaque porro. Dolor qui aspernatur dolores. Cum quod et maxime.
     
             Aut assumenda amet deleniti nisi cumque voluptatibus optio eius. Quia et modi qui veniam ipsum accusantium ea dicta dignissimos. Aut in ut consequatur doloribus ut nisi omnis expedita sit.
             
