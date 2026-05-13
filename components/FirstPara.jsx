@@ -1,6 +1,9 @@
 
 import burger from '../src/assets/burger.webp'
 import '../src/styles/firstpara.css'
+import '../src/styles/App.css'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import { useEffect } from "react";
 
@@ -18,7 +21,13 @@ function FirstPara({isMobile}){
       return(
         <div>
 
-        <img className='img1FP' src={burger}></img>
+        <Container>
+                <Row>
+                  <Col className='text-center'>
+                    <img className='img1FP ' src={burger}></img>
+                  </Col>
+                </Row>
+              </Container>
 
 
         <p>Beatae inventore aut aspernatur facilis. Voluptatum ut ex sint nihil ex vero totam suscipit dignissimos. Aliquam facere quis quae veniam voluptates debitis. Cum voluptatibus itaque porro. Dolor qui aspernatur dolores. Cum quod et maxime.
@@ -46,7 +55,7 @@ function FirstPara({isMobile}){
                 <div className='col'>
                     <img className='img1FP' src={burger}></img>
                 </div>
-                <div className='col'>
+                <div className='col text'>
                     <p>Beatae inventore aut aspernatur facilis. Voluptatum ut ex sint nihil ex vero totam suscipit dignissimos. Aliquam facere quis quae veniam voluptates debitis. Cum voluptatibus itaque porro. Dolor qui aspernatur dolores. Cum quod et maxime.
  
                     Aut assumenda amet deleniti nisi cumque voluptatibus optio eius. Quia et modi qui veniam ipsum accusantium ea dicta dignissimos. Aut in ut consequatur doloribus ut nisi omnis expedita sit.
