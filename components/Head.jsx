@@ -7,8 +7,8 @@ import Col from 'react-bootstrap/Col';
 import paanHut from '../src/assets/paanhut.webp'
 
 function Head(isMobile){
-    console.log(isMobile);
-    if(isMobile){
+
+    if(isMobile == true){
         return(
             <div>
                 
@@ -31,17 +31,21 @@ function Head(isMobile){
         )
     }
         else{
+            console.log('test');
             return(
                 <div>
                 <Container>
                     <Row>
 
                         <Col className='text-center'>
+
+                            
                             <h1 className='headText'>Welcome to <br></br> Paanhut</h1>
+                            <img className='headImg' src={paanHut}></img>
                         </Col>
                     </Row>
                 </Container>
-                    <img className='headImg' src={paanHut}></img>
+                    
 
                 </div>
                 )

@@ -1,5 +1,5 @@
 .headImg {
-    width: 1000%;
+    width: 35%;
 }
 
 .headImgMob {
@@ -9,6 +9,6 @@
 
 .headText { 
     padding-top: 1em;
-    padding-bottom: 1em;
+
     size: 100px;
 }
