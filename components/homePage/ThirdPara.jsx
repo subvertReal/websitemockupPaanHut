@@ -1,7 +1,7 @@
 
-import burger from '../src/assets/burger.webp'
-import '../src/styles/menupara.css'
-import '../src/styles/App.css'
+import burger from '../../src/assets/burger.webp'
+import '../../src/styles/thirdpara.css'
+import '../../src/styles/App.css'
 import { Container } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';

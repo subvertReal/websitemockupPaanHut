@@ -19,10 +19,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/styles/App.css'
 
 // component imports
-import Head from '../components/Head.jsx'
-import FirstPara from '../components/FirstPara.jsx'
-import SecPara from '../components/SecPara.jsx'
-import MenuPara from '../components/MenuPara.jsx';
+import Head from '../components/homePage/Head.jsx'
+import FirstPara from '../components/homePage/FirstPara.jsx'
+import SecPara from '../components/homePage/SecPara.jsx'
+import Thirdpara from '../components/homePage/ThirdPara.jsx';
 import Menu from './Menu.jsx';
 
 
@@ -46,7 +46,7 @@ function Home() {
       <SecPara isMobile={isMobile} />
       <br></br>
 
-      <MenuPara isMobile={isMobile} />
+      <Thirdpara isMobile={isMobile} />
 
     </div> 
   )

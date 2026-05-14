@@ -1,7 +1,7 @@
 
-import burger from '../src/assets/burger.webp'
-import '../src/styles/secpara.css'
-import '../src/styles/App.css'
+import burger from '../../src/assets/burger.webp'
+import '../../src/styles/secpara.css'
+import '../../src/styles/App.css'
 
 import { useEffect } from "react";
 import { Container } from 'react-bootstrap';

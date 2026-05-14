@@ -1,10 +1,10 @@
-import '../src/styles/App.css'
-import '../src/styles/head.css';
+import '../../src/styles/App.css'
+import '../../src/styles/head.css';
 import { Container } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import paanHut from '../src/assets/paanhut.webp'
+import paanHut from '../../src/assets/paanhut.webp'
 
 function Head(isMobile){
 

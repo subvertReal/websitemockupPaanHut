@@ -24,10 +24,8 @@ function Menu({isMobile}){
             <Row>
                 <Col className='text-center' >
                     <div id='outterDiv'>
-                        <button onMouseEnter={()=> {
-
-                        }} id='btnMenu' className={isMobile ? 'btnMenuMob' : 'btnMenuDesk'}>
-                            Menu
+                        <button type='button' id='btnMenu' className={isMobile ? 'btnMenuMob btn btn-outline-danger' : 'btnMenuDesk btn btn-outline-danger'}>
+                            <b>Menu</b>
                         </button>
                     </div>
                 </Col>
