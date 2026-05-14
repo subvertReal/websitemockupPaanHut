@@ -1,9 +1,14 @@
+// css import
 import '../../src/styles/App.css'
 import '../../src/styles/head.css';
+
+//bootstrap imports
 import { Container } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+
+//asset import
 import paanHut from '../../src/assets/paanhut.webp'
 
 function Head(isMobile){

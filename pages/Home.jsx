@@ -1,3 +1,4 @@
+// js conditoin statement that determiens if mobile or desktop... probably a easier way to do this ngl
 const isMobile = window.innerWidth <= 768;
 
     if (isMobile) {
@@ -23,7 +24,7 @@ import Head from '../components/homePage/Head.jsx'
 import FirstPara from '../components/homePage/FirstPara.jsx'
 import SecPara from '../components/homePage/SecPara.jsx'
 import Thirdpara from '../components/homePage/ThirdPara.jsx';
-import Menu from './Menu.jsx';
+import MenuComponent from '../components/homePage/MenuComponent.jsx';
 
 
 function Home() {
@@ -37,7 +38,7 @@ function Home() {
       <Head isMobile={isMobile} />
       <br></br>
 
-      <Menu isMobile={isMobile} />
+      <MenuComponent isMobile={isMobile} />
       <br></br>
 
       <FirstPara isMobile={isMobile} />
