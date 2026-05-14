@@ -31,7 +31,7 @@ function Head(isMobile){
         )
     }
         else{
-            console.log('test');
+
             return(
                 <div>
                 <Container>

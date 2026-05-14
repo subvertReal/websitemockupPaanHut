@@ -11,11 +11,11 @@ import { useEffect } from "react";
 function FirstPara({isMobile}){
 
   useEffect(() => {
-    // console.log("log"+ isMobile);
+
 
   
   }, [isMobile]);
-// console.log('a'+isMobile);
+
 
 
     if (isMobile){

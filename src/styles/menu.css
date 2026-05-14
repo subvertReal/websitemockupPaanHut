@@ -1,14 +1,18 @@
-.img1FP{
-    width: 70%;
+.btnMenuDesk{
+    padding: 2em 15em 2em 15em;
+    border-style: solid;
+    border-width: 5px;
+    
+
 }
 
-.popInBottom1.active{
-  transform: translateX(0);
-  opacity: 1;
+.btnMenuMob{
+    padding: 1em 4em 1em 4em;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
 }
-.popInBottom1{
-  position: relative;
-  transform: translateX(-150px);
-  opacity: 0;
-  transition: .5s all ease;
+
+#outterDiv{
+    font-size: 2em;
 }

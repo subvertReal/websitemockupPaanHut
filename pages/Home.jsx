@@ -6,6 +6,7 @@ const isMobile = window.innerWidth <= 768;
       console.log("Desktop resolution");
     }
 
+// bootstrap imports
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
@@ -22,6 +23,7 @@ import Head from '../components/Head.jsx'
 import FirstPara from '../components/FirstPara.jsx'
 import SecPara from '../components/SecPara.jsx'
 import MenuPara from '../components/MenuPara.jsx';
+import Menu from './Menu.jsx';
 
 
 function Home() {
@@ -32,16 +34,19 @@ function Home() {
 
      <script src="http://localhost:8097"></script>
 
-      <Head isMobile={isMobile}/>
+      <Head isMobile={isMobile} />
       <br></br>
 
-      <FirstPara isMobile={isMobile}/>
+      <Menu isMobile={isMobile} />
       <br></br>
 
-      <SecPara isMobile={isMobile}/>
+      <FirstPara isMobile={isMobile} />
       <br></br>
 
-      <MenuPara isMobile={isMobile}/>
+      <SecPara isMobile={isMobile} />
+      <br></br>
+
+      <MenuPara isMobile={isMobile} />
 
     </div> 
   )
