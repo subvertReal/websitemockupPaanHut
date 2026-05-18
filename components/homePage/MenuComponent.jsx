@@ -19,20 +19,38 @@ import { useNavigate } from 'react-router-dom';
 
 function MenuComponent({isMobile}){
     const nav = useNavigate();
-
-    return (
-        <Container>
-            <Row>
-                <Col className='text-center' >
-                    <div id='outterDiv'>
-                        <button type='button' onClick={()=> {nav('/menu')}} id='btnMenu' className={isMobile ? 'btnMenuMob btn btn-outline-danger' : 'btnMenuDesk btn btn-outline-danger'}>
-                            <b>Menu</b>
-                        </button>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
-    )
+    console.log(isMobile);
+    if (isMobile == true){
+        return (
+                <Container>
+                    <Row>
+                        <Col className='text-center' >
+                            <div id='outterDiv'>
+                                <button type='button' onClick={()=> {nav('/menu')}} id='btnMenu' className='btnMenuMob btn btn-outline-danger'>
+                                    <b>Menu</b>
+                                </button>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            )
+    }
+    else{
+        return (
+                <Container>
+                    <Row>
+                        <Col className='text-center' >
+                            <div id='outterDiv'>
+                                <button type='button' onClick={()=> {nav('/menu')}} id='btnMenu' className='btnMenuDesk btn btn-outline-danger'>
+                                    <b>Menu</b>
+                                </button>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            )
+    }
+    
 
 
 }

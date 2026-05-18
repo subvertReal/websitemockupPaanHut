@@ -35,10 +35,10 @@ function Home() {
 
      <script src="http://localhost:8097"></script>
 
-      <Head isMobile={isMobile} />
+      <Head  />
       <br></br>
 
-      <MenuComponent  />
+      <MenuComponent isMobile={isMobile} />
       <br></br>
 
       <FirstPara isMobile={isMobile} />
