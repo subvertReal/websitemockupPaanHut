@@ -38,7 +38,7 @@ function Home() {
       <Head isMobile={isMobile} />
       <br></br>
 
-      <MenuComponent isMobile={isMobile} />
+      <MenuComponent  />
       <br></br>
 
       <FirstPara isMobile={isMobile} />
