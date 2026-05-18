@@ -20,6 +20,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/styles/App.css'
 
 // component imports
+import NavBar from '../components/NavBar.jsx';
 import Head from '../components/homePage/Head.jsx'
 import FirstPara from '../components/homePage/FirstPara.jsx'
 import SecPara from '../components/homePage/SecPara.jsx'
@@ -35,6 +36,7 @@ function Home() {
 
      <script src="http://localhost:8097"></script>
 
+      <NavBar />
       <Head  />
       <br></br>
 
